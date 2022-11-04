@@ -163,6 +163,15 @@ img {
 
 	padding-top: 200px;
 	padding-bottom: 200px;
+
+	background-image: linear-gradient(
+		to right, 
+		rgba(47, 48, 58, 0.4), 
+		rgba(47, 48, 58, 0.4)), 
+		url(../images/hero-bcg-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
 .hero-title {
@@ -293,6 +302,25 @@ img {
 	line-height: calc(19 / 16);
 	text-align: center;
 	color: var(--second-text-color);
+	padding-bottom: 16px;
+}
+
+.socials {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.socials-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+
+	outline: 2px solid red;
 }
 
 .section-team {
