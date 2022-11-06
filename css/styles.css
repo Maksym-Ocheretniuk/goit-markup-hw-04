@@ -14,7 +14,7 @@
 	--address-list-color: rgba(255, 255, 255, 0.6);
 	--portfolio-box: #eeeeee;
 	--btn-hero-accent-color: #188ce8;
-	--socials-icon-primary-color: #AFB1B8;
+	--socials-icon-primary-color: #afb1b8;
 }
 
 body {
@@ -156,6 +156,16 @@ img {
 	color: var(--accent-color);
 }
 
+.header-list-contact {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header-icon {
+	fill: currentColor;
+}
+
 /* -----------------HEADER----------------- */
 /* -----------------HERO----------------- */
 
@@ -165,10 +175,7 @@ img {
 	padding-top: 200px;
 	padding-bottom: 200px;
 
-	background-image: linear-gradient(
-		to right, 
-		rgba(47, 48, 58, 0.4), 
-		rgba(47, 48, 58, 0.4)), 
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/hero-bcg-img.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -231,6 +238,14 @@ img {
 
 .feature-item {
 	width: 270px;
+}
+
+.feature-icon {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: var(--section-team-bcg);
 }
 
 .features-title {
@@ -341,6 +356,47 @@ img {
 }
 
 /* -----------------Section projects, teams----------------- */
+/* -----------------Section clients----------------- */
+
+.section-clients {
+}
+
+.clients {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.clients-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 170px;
+	height: 92px;
+	border: 1px solid var(--socials-icon-primary-color);
+	border-radius: 4px;
+	background-color: var(--primary-white-color);
+	color: var(--socials-icon-primary-color);
+}
+
+.clients-icon {
+	fill: currentColor;
+}
+
+.clients-item {
+	border: 1px solid --socials-icon-primary-color;
+	border-radius: 4px;
+	background-color: var(--primary-white-color);
+	color: var(--socials-icon-primary-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+	color: var(--accent-color);
+}
+
+/* -----------------Section clients----------------- */
 /* -----------------Section footer----------------- */
 
 .footer {
