@@ -14,6 +14,7 @@
 	--address-list-color: rgba(255, 255, 255, 0.6);
 	--portfolio-box: #eeeeee;
 	--btn-hero-accent-color: #188ce8;
+	--socials-icon-primary-color: #AFB1B8;
 }
 
 body {
@@ -319,8 +320,20 @@ img {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
+	background-color: var(--primary-white-color);
+	color: var(--socials-icon-primary-color);
+	/* outline: 2px solid red;
+	outline-offset: -2px; */
+}
 
-	outline: 2px solid red;
+.socials-icon {
+	fill: currentColor;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
 }
 
 .section-team {
