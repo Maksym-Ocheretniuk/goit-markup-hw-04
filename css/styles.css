@@ -179,7 +179,7 @@ img {
 		url(../images/hero-bcg-img.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 }
 
 .hero-title {
