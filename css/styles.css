@@ -406,6 +406,10 @@ img {
 	background: var(--hero-footer-bcg);
 }
 
+.footer-container {
+	display: flex;
+}
+
 .footer .logo {
 	color: var(--primary-white-color);
 	/* margin-bottom: 20px; */
@@ -449,6 +453,39 @@ img {
 
 .tel {
 	margin-bottom: 0px;
+}
+
+.join {
+	padding-left: 70px;
+	padding-top: 12px;
+}
+
+.join-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	text-transform: uppercase;
+
+	padding-bottom: 20px;
+
+	color: var(--primary-white-color);
+}
+
+.join .socials-link {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: var(--primary-white-color);
+	/* outline: 2px solid red;
+	outline-offset: -2px; */
+}
+
+.join .socials-icon {
+	fill: currentColor;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
 }
 
 /* -----------------Section footer----------------- */
