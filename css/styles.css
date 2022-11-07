@@ -358,8 +358,7 @@ img {
 /* -----------------Section projects, teams----------------- */
 /* -----------------Section clients----------------- */
 
-.section-clients {
-}
+.section-clients {}
 
 .clients {
 	display: flex;
