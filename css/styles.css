@@ -361,8 +361,6 @@ img {
 /* -----------------Section projects, teams----------------- */
 /* -----------------Section clients----------------- */
 
-.section-clients {}
-
 .clients {
 	display: flex;
 	align-items: center;
